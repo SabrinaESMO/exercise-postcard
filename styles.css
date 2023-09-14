@@ -1,0 +1,71 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Handlee";
+}
+
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+	font-family: "Handlee";
+	font-weight: bold;
+}
+
+.body-left p {
+	margin-top: 0;
+	font-size: 16px;
+}
+
+.body-left {
+	padding: 10px;
+	max-width: 50%;
+}
+
+.body-right {
+	padding: none;
+}
+
+.body-right input {
+	color: grey;
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family: "Handlee";
+	font-weight: bold;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	background-color: darkgrey;
+	padding: 5px;
+	font-family: "Handlee";
+	font-weight: bold;
+	border: grey;
+	border-bottom: 1px solid grey;
+}
+
+/*Me quedo insatisfecha ya que no logro hacer 
+que el borde inferior de los "inputs" lleguen al final. 
+Esperaré a las siguientes lecciones.*/
